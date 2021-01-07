@@ -1,6 +1,7 @@
 package com.djs.iterator.v3;
 
 import com.djs.iterator.v1.MyList;
+import com.djs.iterator.v4.MyIterator;
 
 
 /**
@@ -33,5 +34,10 @@ public class MyLinkedList<E> implements MyList <E>{
     @Override
     public int size() {
         return index;
+    }
+
+    @Override
+    public MyIterator iterator() {
+        return null;
     }
 }

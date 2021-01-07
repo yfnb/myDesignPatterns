@@ -34,4 +34,9 @@ public class MyLinkedList<E> implements MyList <E>{
     public int size() {
         return index;
     }
+
+    @Override
+    public MyIterator iterator() {
+        return null;
+    }
 }
